@@ -107,7 +107,7 @@ export default function Navbar({ onBookServiceClick, onSignupClick }: NavbarProp
           <div className="flex items-center gap-3 lg:hidden">
             <a
               href="#cart"
-              className="relative p-2 text-slate-700 hover:text-blue-600 rounded-lg"
+              className="md:hidden relative p-2 text-slate-700 hover:text-blue-600 rounded-lg"
               title="Cart"
             >
               <ShoppingCartIcon className="w-5 h-5" />
