@@ -1,86 +1,117 @@
-# Next.js Frontend Project
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PANJTAN PAK AUTO
 
-## Technologies Used
+## Project Description
 
-- **Framework:** [Next.js](https://nextjs.org) (App Router)
-- **Language:** TypeScript
-- **Typography:** [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with [Geist](https://vercel.com/font)
+A modern, responsive workshop website built with Next.js and TypeScript. The platform provides customers with an easy way to explore workshop services, browse spare parts, learn about the workshop, and contact the team. It features a user-friendly interface with service booking, spare parts catalog access, customer testimonials, a workshop gallery, and contact information. The frontend is designed to provide a smooth experience across desktop, tablet, and mobile devices.
 
-## Getting Started
 
-### 1. Installation
+## Features
+Responsive homepage design
 
-Install project dependencies using your package manager of choice:
+Navigation bar with workshop and spare parts links
 
-```bash
+Hero section with calls to action
+
+Workshop services preview
+
+Customer testimonials
+
+Workshop gallery and brand showcase
+
+About and contact sections
+
+FAQ section and footer
+
+Signup modal interface
+
+Service booking modal interface
+
+Mobile-friendly navigation
+
+
+## Tech Stack
+Next.js
+
+React
+
+TypeScript
+
+CSS / Tailwind CSS
+
+
+## Getting Start
+Before running this project, make sure you have installed:
+
+Node.js
+
+npm
+
+
+## Installation
+
+Clone the repository.
+
+Navigate to the project directory.
+
+Install the dependencies.
+
 npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
-```
 
-### 2. Development Server
+Start the development server.
 
-Run the development server:
+```npm run dev
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
 
-### 3. Production Build & Start
+npm run dev — starts the development server.
 
-To create an optimized production build and start the server:
+npm run build — builds the application for production.
 
-```bash
-# Build the application
-npm run build
+npm run start — starts the production server.
 
-# Start the production server
-npm start
-```
-
-### 4. Linting
-
-Run the linter to check for code issues:
-
-```bash
-npm run lint
-```
-
+npm run lint — runs the configured linting checks, if available.
+## Folder Structure
 ## Project Structure
 
-- `app/` - Contains the App Router pages, layout, and routing logic (entry: `app/page.tsx`).
-- `public/` - Static assets served directly by Next.js.
+```text
+app/
+├── components/
+│   ├── BookingModal.tsx
+│   ├── BrandSections.tsx
+│   ├── ContactSection.tsx
+│   ├── CtaSection.tsx
+│   ├── FaqSection.tsx
+│   ├── Footer.tsx
+│   ├── GallerySection.tsx
+│   ├── HeroSection.tsx
+│   ├── icons.tsx
+│   ├── Navbar.tsx
+│   ├── NetworkSection.tsx
+│   ├── PopularServicesSection.tsx
+│   ├── ReviewSection.tsx
+│   └── SignupModal.tsx
+├── page.tsx
+└── globals.css
+```
 
-## Learn More
+### Components Overview
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
+- **Navbar** — Provides the main navigation.
+- **HeroSection** — Displays the homepage's main introductory section.
+- **PopularServicesSection** — Showcases popular workshop services.
+- **BrandSections** — Displays supported brands or manufacturers.
+- **NetworkSection** — Presents the workshop's network or related highlights.
+- **ReviewSection** — Displays customer reviews or testimonials.
+- **GallerySection** — Showcases workshop images.
+- **CtaSection** — Displays a call-to-action section.
+- **BookingModal** — Provides the service booking interface.
+- **SignupModal** — Provides the signup interface.
+- **ContactSection** — Displays contact information and related content.
+- **FaqSection** — Presents frequently asked questions.
+- **Footer** — Contains the bottom section of the website.
+- **icons.tsx** — Contains icon-related code used by the interface.
