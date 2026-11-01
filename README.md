@@ -79,25 +79,7 @@ npm run lint — runs the configured linting checks, if available.
 ## Project Structure
 
 ```text
-app/
-├── components/
-│   ├── BookingModal.tsx
-│   ├── BrandSections.tsx
-│   ├── ContactSection.tsx
-│   ├── CtaSection.tsx
-│   ├── FaqSection.tsx
-│   ├── Footer.tsx
-│   ├── GallerySection.tsx
-│   ├── HeroSection.tsx
-│   ├── icons.tsx
-│   ├── Navbar.tsx
-│   ├── NetworkSection.tsx
-│   ├── PopularServicesSection.tsx
-│   ├── ReviewSection.tsx
-│   └── SignupModal.tsx
-├── page.tsx
-└── globals.css
-```
+
 
 ### Components Overview
 
